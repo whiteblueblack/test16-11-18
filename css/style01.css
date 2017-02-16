@@ -1,0 +1,490 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+;
+}
+.wrap{
+    width:100%;
+    height:100%;
+}
+.align-center{
+    margin:0 auto;
+}
+.nav-box{
+    width:1177px;
+    height:100px;
+}
+.nav-box-title{
+    width:100%;
+    position:relative;
+    margin:0 0 11px 0;
+    padding:20px 0 0 10px;
+    box-sizing: border-box;
+}
+.nav-box-title li img{
+    width:100%;
+    height:100%;
+}
+#nav-title-logo{
+    width:85px;
+    height:30px;
+    right:0;
+    top:20px;
+    position:absolute;
+}
+#nav-title-logo-left{
+    width:93px;
+    height:26px;
+}
+#nav-title-logo-left img{
+    width:100%;
+    height:100%;
+}
+.nav-box-list{
+    height:43px;
+    width:100%;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+#drop-audi{
+    display:none;
+    position:absolute;
+    top:41px;
+    width:1000px;
+    z-index: 222;
+    height:400px;
+    background-color: white;
+}
+
+/*.nav-box>.nav-box-list>.nav-drop-1>#audi-models:hover .nav-box-list>li>ul>#drop-audi{*/
+    /*display:block;*/
+/*}*/
+.nav-box-list li{
+    float:left;
+    position:relative;
+    margin-right:11px;
+    font:11px/43px  Verdana,"Microsoft Yahei",SimSun,"Heiti SC","Droid sans";
+}
+.nav-box-list .nav-box-list-2 #nav-drop-2{
+    width:205px;
+    height:202px;
+    position:absolute;
+    top:35px;
+    z-index: 111;
+    display:none;
+    background-color: #fff;
+    text-indent:1em;
+}
+.nav-box-list .nav-box-list-2 #nav-drop-2 li:hover{
+    color: #c02e32;
+}
+.nav-drop-1:hover #drop-audi{
+    display: block;
+}
+#nav-drop-2 ul{
+    width:100%;
+    height:100%;
+}
+#nav-drop-2 ul li{
+    height:40px;
+    width:100%;
+    border-bottom:1px solid #d0d3ca;
+}
+.nav-box-list-3 #nav-drop-3{
+    height:246px;
+}
+.nav-box-list-3  .nav-drop-li-H_W_P_T-set{
+    width:200px;
+    background-color: white;
+    color: #3f3f27;
+    display:none;
+    z-index: 222;
+    position:absolute;
+    top:41px;
+    left:0;
+}
+.nav-box-list-3 #nav-drop-3 li{
+    height:40px;
+    width:100%;
+    text-indent:1em;
+    border-bottom:1px solid #c0c0c0;
+}
+#nav-drop-4{
+    position:absolute;
+    top:40px;
+    width:200px;
+    height:200px;
+    background-color: white;
+    color: #3f3f27;
+    text-indent:1em;
+    z-index: 222;
+    display:none;
+}
+#nav-drop-4 li{
+    height:40px;
+    width:100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.nav-box-list-4:hover #nav-drop-4{
+    display:block;
+}
+.nav-box-list-4  #nav-drop-4 li:hover{
+    color: #ff6146;
+}
+.nav-box-list-3:hover #nav-drop-3{
+    display: block;
+}
+.nav-box-list-3 #nav-drop-3 li:hover{
+    color: #d95233;
+}
+.nav-box-list-5 #nav-drop-5{
+    width:200px;
+    height:450px;
+    background-color: #fff;
+    color:#3f3f27;
+    position:absolute;
+    z-index: 222;
+    text-indent: 1em;
+    top:41px;
+    display: none;
+}
+.nav-box-list-5 #nav-drop-5 li{
+    height:40px;
+    width:100%;
+    border-bottom:1px solid #c0c0c0;
+}
+.nav-box-list-5:hover #nav-drop-5{
+    display: block;
+}
+.nav-box-list-5 #nav-drop-5 li:hover{
+    color: #e22d1b;
+}
+.nav-box-list li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-box-list li a:hover{
+    color: #cd3754;
+}
+.nav-box-list li .audi-recommend:hover .nav-drop-2{
+    display: block;
+}
+.nav-box-list-search{
+    width:14px;
+    height:14px;
+    margin-right:5px;
+}
+s{
+    display:inline-block;
+    width:15px;
+    height:14px;
+    background: url("../image/sprite-main.png");
+}
+.search-sprite{
+    background-position:-72px -700px;
+}
+.banner-box{
+    width:100%;
+    height:418px;
+    position:relative;
+    overflow: hidden;
+}
+#banner{
+    width:13490px;
+    height:418px;
+    left:0;
+    transition:all ease-out 0.3s;
+    position:absolute;
+}
+#banner li{
+    width:1349px;
+    height:100%;
+    float:left;
+    position:relative;
+}
+#banner li img{
+    width:100%;
+}
+#banner li p{
+    position:absolute;
+    width:160px;
+    height:45px;
+    right:86px;
+    top:58px;
+    z-index: 100;
+    text-indent:12px;
+    font:bold 27px/45px Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+    background-color:black;
+}
+#banner li p img{
+    position:absolute;
+    right:10px;
+    width:27px;
+    top:14px;
+    height:18px;
+    margin-left:5px;
+}
+#banner li p a{
+    text-decoration:none;
+    color:white;
+}
+#banner li p a:hover{
+    color:#8d8d8d;
+}
+.banner-d1-none{
+    z-index: -11;
+}
+#banner li p a:hover .banner-d1-none{
+    z-index: 111;
+}
+#find-it{
+    left:86px;
+    top:58px;
+}
+.banner-control{
+    position:absolute;
+    bottom:9px;
+    margin-left:-98px;
+    left:50%;
+    height:12px;
+    width:100%;
+}
+.banner-control li{
+    float:left;
+    margin-right:13px;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background-color:#99a1a3;
+    border:1px solid #f0f0f0;
+}
+.banner-box s{
+    position:absolute;
+    width:40px;
+    height:40px;
+    margin-top:-20px;
+    /*left:0;*/
+    top:50%;
+    z-index: 22;
+    background-position:-230px -315px;
+}
+#next{
+    position:absolute;
+    right:0;
+    z-index: 22;
+    background-position:-230px -275px;
+}
+#next:hover{
+    background-position:-270px -275px;
+}
+#pre:hover{
+    background-position:-270px -315px;
+}
+.inner-wrap{
+    width:1177px;
+    height:100%;
+}
+.Customized{
+    width:720px;
+    height:310px;
+}
+.Customized ul{
+    width:355px;
+    height:100%;
+    float:left; 
+}
+.Customized ul li{
+    width:355px;
+    height:46px;
+    color:black;
+    margin-bottom:8px;
+}
+.Customized ul li select{
+    width:100%;
+    height:100%;
+}
+#Customized-title{
+    color:black;
+    width:100%;
+    height:42px;
+    margin-top:31px;
+    font:12px/42px Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+}
+#Customized-title4{
+    width:99px;
+    margin-right:0;
+    float:right;
+    height:40px;
+    font-size:12px;
+    text-align: center;
+    margin-top:12px;
+    background-color:black;
+}
+#Customized-title4 a{
+    text-decoration: none;
+    color:white;
+    line-height:40px;
+}
+#Customized-title4 img{
+    margin-left:5px;
+}
+.car-color{
+    width: 365px;
+    height: 322px;
+    float:left;
+    background: url("../image/zie4zb.png") no-repeat center;
+}
+.show{
+    height: 565px;
+    width: 100%;
+    margin-bottom:84px;
+}
+.show ul{
+    width:100%;
+    height:100%;
+}
+.show ul li{
+    float:left;
+    width:353px;
+    height:255px;
+    margin:0 0 4.75% 5.01%;
+    padding:24px 0 0 20px;
+    box-sizing: border-box;
+    font-family: Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+    /*background-size:100% 100%;*/
+    color:white;
+}
+#showtheone{
+    background: url("../image/homepage-testdrive.jpg")center no-repeat;
+    width:353px;
+    background-size:100% 100%;
+    height:565px;
+    margin-left:0;
+}
+.showthetwo{
+    background: url("../image/teaser_20161011.jpg")center no-repeat;
+    width:353px;
+    height:255px;
+}
+.showthethree{
+    background: url("../image/homepage-financial-project-360-260.jpg")center no-repeat;
+}
+.showthefour{
+    background: url("../image/s6_flyout.jpg")center no-repeat;
+}
+.showthefive{
+    background: url("../image/teaser_20161011.jpg") center no-repeat;
+}
+.showthesix{
+    background: url("../image/flyout_tts_roadster.jpg") center no-repeat;
+}
+.Related-list{
+    width:100%;
+    height:827px;
+    color:#e7e9ea;
+    background-color: #e7e9ea;
+}
+.Related-list-1{
+    width:1177px;
+    height:295px;
+}
+.Related-list-1>li{
+    float:left;
+    color:black;
+    margin:40px 171px auto 0;
+    font-family: Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+
+}
+.Related-list-2{
+    width:1177px;
+}
+.Related-list-2>li{
+    float:left;
+    color:black;
+    margin:20px 167px auto 0;
+    font-family: Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+}
+#Related-list-2{
+    margin-right:112px;
+    /*width:1177px;*/
+}
+.Related-list-1 li ul li{
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.Related-list-2 li ul li{
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.Related-list-1 li ul li:hover{
+    color: #cc0033;
+}
+.Related-list-2 li ul li:hover{
+    color: #cc0033;
+}
+
+.Related-list-2 li ul li{
+    margin-bottom:20px;
+}
+#bottom-related{
+    height:143px;
+    width:100%;
+    border-top:1px solid #d0d3d4;
+}
+#bottom-related ul{
+    width:100%;
+    height:100%;
+}
+#bottom-related ul li{
+    width:63px;
+    height:76px;
+    float:left;
+    font-size: 11px;
+    margin:27px auto auto 38px;
+}
+#bottom-related ul li.list-border{
+    height:30px;
+    width:1px;
+    color:#d0d3d4;
+}
+#bottom-related ul li.width-set{
+    width:85px;
+}
+#bottom-related ul li.width-set img{
+    margin-left: 10px;
+}
+#station{
+    width:100%;
+    height:177px;
+    background-color:#434c53;
+}
+#station ul{
+    width:1177px;
+    height:115px;
+}
+#station ul li{
+    float:left;
+    margin-right:30px;
+    font:11px/90px Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+    color:white;
+}
+#last-station{
+    width:1177px;
+    color:#b0b6b8;
+    font:12px/61px Verdana, "Microsoft Yahei", SimSun, "Heiti SC", "Droid sans";
+    height:61px;
+    text-align: left;
+    border-top:1px solid #363d42;
+}
+#last-station span{
+    margni-left:0;
+}
+
+
+
+
+
+
+
+
